@@ -1,5 +1,7 @@
 //Type 1 : less Optimized
 function BubbleSortTypeOne(arr){
+
+    if(arr.length <= 1) return;
     var countOfLoops = 0;
     for(var v in arr){
         for(var i in arr){
@@ -22,6 +24,8 @@ function BubbleSortTypeOne(arr){
 
 //Trype 2 : lesser Optimized
 function BubbleSortTypeTwo(arr){
+
+    if(arr.length <= 1) return;
     var countOfLoops = 0;
     for(var i = arr.length; i >= 0; i--){
         for(var j = 0; j < i-1; j++){
@@ -39,6 +43,8 @@ function BubbleSortTypeTwo(arr){
 
 //Type 3: Most Optimized in number of iteration. when array is nearly sorted
 function BubbleSortTypeThree(arr){
+
+    if(arr.length <= 1) return;
     var countOfLoops = 0;
     var isSwaped = false;
     for(var i = arr.length; i >= 0; i--){
