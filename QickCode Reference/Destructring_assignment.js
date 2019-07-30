@@ -76,4 +76,4 @@ var {
 } = obj;
 
 amount // 20 but if obj dosn't have amount it amoount variable will be 1000
-// Mid that = sign of default assignment
+// Mind that = sign of default assignment 
